@@ -1,9 +1,11 @@
 {
   "name": "homework11",
   "version": "1.0.0",
-  "description": "\"# homework11\"",
+  "description": "# homework11",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,14 +13,18 @@
     "url": "git+https://github.com/lguzman/homework11.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Luis Guzman",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/lguzman/homework11/issues"
   },
   "homepage": "https://github.com/lguzman/homework11#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
   }
 }
